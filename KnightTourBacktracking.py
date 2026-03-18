@@ -16,7 +16,7 @@ def print_board(board, pesan=""):
             print(f"{board[i][j]:2}", end=' ')
         print()
     
-    time.sleep(1) 
+    time.sleep(0,3) 
 
 def is_safe(x, y, board):
     return 0 <= x < N and 0 <= y < N and board[x][y] == -1
